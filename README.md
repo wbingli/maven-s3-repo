@@ -56,7 +56,7 @@ If you want to use `http://` schema as maven repository, S3 bucket need to be co
 ### Enable website hosting
 Only enable this, you can access S3 via HTTP.
 
-Just go to S3 console, and enable **Static Website Hosting**.
+Just go to S3 console, and enable **Static Website Hosting**. Put _index.html_ in **Index Document** as it's required to have one.
 
 ### Configure Bucket Policy
 You need to configure bucket policy so that those artifacts could be accessable. Example as below:
