@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-    <repositories>
+  <repositories>
     <repository>
         <id>aws-release</id>
         <name>AWS S3 Release Repository</name>
